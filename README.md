@@ -85,6 +85,7 @@ fa fa6 (w[13],x[1]&y[3],w[15],z[4],w[16]);
 fa fa7 (w[14],x[2]&y[3],w[16], z[5],w[17]);
 fa fa8 (w[11],x[3]&y[3],w[17],z[6],z[7]);
 endmodule
+
 # Output Waveform
 
 # 2 bit Multiplier:

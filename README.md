@@ -32,6 +32,7 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 # Verilog code
 # Program
 # 2 bit Multiplier:
+```
 module HalfAdder(a,b,sum,carry);
 input a,b;
 output sum,carry;
@@ -50,7 +51,9 @@ and a4(w3,a[1],b[1]);
 HalfAdder h0(w1,w2,y[1],w4);
 HalfAdder h1(w3,w4,y[2],y[3]);
 endmodule
+```
 # 4 Bit Multiplier:
+```
 module  ha (a,b,s,c);
 input a,b;
 output s,c;
@@ -85,6 +88,7 @@ fa fa6 (w[13],x[1]&y[3],w[15],z[4],w[16]);
 fa fa7 (w[14],x[2]&y[3],w[16], z[5],w[17]);
 fa fa8 (w[11],x[3]&y[3],w[17],z[6],z[7]);
 endmodule
+```
 # Output Waveform
 
 # 2 bit Multiplier:
